@@ -15,7 +15,7 @@ QuickSh es una herramienta en Bash que permite calcular información de la red a
 Para ejecutar la herramienta, simplemente necesitas pasar una dirección IP con su notación CIDR como argumento. Ejemplo:
 
 ```bash
-./bashcanner.sh 192.168.0.1/24
+./QuickSh.sh 192.168.0.1/24
 ```
 
 ## Ejemplo de Salida
