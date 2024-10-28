@@ -1,6 +1,6 @@
 # Herramienta de Subnetting Automático en Bash
 
-QuickSh es una herramienta en Bash que permite calcular información de la red a partir de una dirección IP y su máscara de red en notación CIDR. Proporciona la clase de la dirección, la máscara de red, la primera y última dirección IP de la subred, y el número total de hosts disponibles.
+QuickSh es una herramienta en Bash que permite calcular información de la red a partir de una dirección IP y su máscara de red en notación CIDR. Proporciona la clase de la dirección, la máscara de red, la dirección de red, la red de difusión de la subred, y el número total de hosts disponibles.
 
 ## Características
 
@@ -26,8 +26,8 @@ Para ejecutar la herramienta, simplemente necesitas pasar una dirección IP con 
 [+] Información de la red:
 [+] Clase: C
 [+] Mascara de red: 255.255.255.0
-[+] Primera direccion IP (Network ID): 192.168.0.0
-[+] Ultima direccion IP (Broadcast ID): 192.168.0.255
+[+] Dirección de red: 192.168.0.0
+[+] Dirección de difusión: 192.168.0.255
 [+] Hosts totales: 254
 --------------------------------------------------------------------------------
 Herramienta creada por: Ernesto Ramos (h4xthan) :)
